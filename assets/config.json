@@ -1,0 +1,47 @@
+{
+  "lineNumbers": true ,
+  "outlineHexColors": true,
+  "font": "jetbrainsmono-regular",
+  "fontFilter": "point",
+  "fontSize": 18,
+  "fontSpacing": 0,
+  "tabLength": 2,
+  "keybinds": {
+    "new file": "ctrl+n",
+    "open file": "ctrl+o",
+    "save": "ctrl+s",
+    "save as": "ctrl+shift+s",
+    "copy": "ctrl+c",
+    "paste": "ctrl+v",
+    "undo": "ctrl+z",
+    "open config": "ctrl+,",
+    "reload window": "ctrl+r"
+  },
+  "colors": {
+    "text background": "#202030",
+    "text foreground": "#fff",
+    "text highlight": "#f806",
+    "line numbers": "#fff8",
+
+    "UI border": "#282834",
+    "UI elements": "#ccc",
+    "UI highlight": "#d776",
+    "tab background": "#343443",
+    "tab foreground": "#2236"
+  },
+  "syntax": {
+    ".json": {
+      ",|:": "#e14",
+      "[0-9]|true|false|-|\\.": "#77f",
+      "\".*?\"": "#7ff",
+      "\\\\\\\\": "#f80"
+    },
+    ".md": {
+      "(^| *)##* .*": "#e14",
+      "https?:\/\/[^\\s]*( |$)": "#7ff",
+      "\\*.*\\*": "#aaf",
+      "\\*\\*.*\\*\\*": "#faa",
+      "\\*\\*\\*.*\\*\\*\\*": "#faf"
+    }
+  }
+}
