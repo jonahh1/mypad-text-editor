@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>text_editor</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ApplicationIcon>assets/icon.ico</ApplicationIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Raylib-cs" Version="4.0.0.1"/>
+		<PackageReference Include="TextCopy" Version="6.1.0"/>
+		<PackageReference Include="TinyDialogsNet" Version="1.1.1"/>
+	</ItemGroup>
+</Project>
